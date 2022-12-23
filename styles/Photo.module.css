@@ -1,0 +1,11 @@
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0px 100px;
+    padding: 20px 0px;
+}
+
+.photo{
+    flex: 20%;
+    padding: 20px;
+}

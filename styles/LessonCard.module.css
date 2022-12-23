@@ -1,0 +1,58 @@
+.li{
+    list-style-type: none;
+    background-color: rgb(219, 217, 217);;
+    margin: 15px 200px;
+    box-shadow: 0 2px 4px 0 rgb(142 154 161 / 20%);
+    border-radius: 2px;
+    padding: 15px;
+    display: flex;
+}
+
+.time{
+    font-size: 18px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.date{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.div1, .div2, .div3{
+    align-items:center;
+}
+
+.div1, .div3{
+    flex-basis: 25%;
+    align-items: center;
+    
+}
+
+.div2{
+    flex-basis: 50%;
+    align-items:center;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+
+.desc{
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.trainer{
+    font-size: 18px;
+    padding: 0px 20px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}

@@ -1,0 +1,24 @@
+.poster{
+    background-image: url(../public/assets/1.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+	margin: 0;
+    color: white;
+	width: 100%;
+	text-align: center;
+    height: 500px;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    font-size: 60pt;
+    top: 25%;
+    left: 25%;
+}
+
+.text{
+    position: absolute;
+    top: 60%;
+    left: 32%;
+}
