@@ -32,14 +32,17 @@ export default function Home() {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
+      <main>
+        <Poster />
+        <Heading title="О нас" />
+        <Text text="Своей глобальной задачей мы видим развитие и популяризацию скалолазания не только как спорта, но как приятного досуга, как повода и средства общения между людьми. Наши скалодромы - это целый мир уникального личного опыта и комфортная среда для общения между нашими гостями." />
+        {/* <Vote /> */}
+        <Benefits />
+        <Heading title="Наш скалодром" />
+        <Text text="Уютный и современный скалодром, где в любое время Вы можете почувствовать себя как дома" />
+        <Photo />
+        <Heading title="Никогда не были на скалодроме? Тогда мы ждём вас!" />
+        
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"
@@ -53,19 +56,6 @@ export default function Home() {
           </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   )
 }
